@@ -3,7 +3,7 @@
   "description": "Handy package for easily creating ACF fields, groups and more.",
   "autoload": {
     "psr-4": {
-      "Freekattema\\AcfGenerator\\": "src/"
+      "Freekattema\\Wordpress\\Acf\\": "src/"
     }
   },
   "authors": [

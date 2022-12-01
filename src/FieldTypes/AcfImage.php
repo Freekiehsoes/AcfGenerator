@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AcfGenerator\FieldTypes;
+namespace Freekattema\Wordpress\Acf\FieldTypes;
 
 final class AcfImage extends AcfFieldType {
     function get_additional(): array

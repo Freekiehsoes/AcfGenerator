@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AcfGenerator;
+namespace Freekattema\Wordpress\Acf;
 
 final class AcfLocation {
     /** @var string */

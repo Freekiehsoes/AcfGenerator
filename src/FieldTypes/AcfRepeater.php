@@ -1,8 +1,8 @@
 <?php
 
-namespace Freekattema\AcfGenerator\FieldTypes;
+namespace Freekattema\Wordpress\Acf\FieldTypes;
 
-use Freekattema\AcfGenerator\Traits\HasOptions;
+use Freekattema\Wordpress\Acf\Traits\HasOptions;
 
 final class AcfRepeater extends AcfFieldType {
     use HasOptions;

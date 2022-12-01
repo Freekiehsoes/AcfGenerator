@@ -1,9 +1,9 @@
 <?php
 
-namespace Freekattema\AcfGenerator;
+namespace Freekattema\Wordpress\Acf;
 
-use Freekattema\AcfGenerator\FieldTypes\AcfFieldType;
-use Freekattema\AcfGenerator\Traits\AddAction;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfFieldType;
+use Freekattema\Wordpress\Acf\Traits\AddAction;
 
 class AcfGroup {
     use AddAction;

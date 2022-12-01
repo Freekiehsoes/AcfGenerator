@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AcfGenerator\Traits;
+namespace Freekattema\Wordpress\Acf\Traits;
 
 trait AddAction
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Freekattema\AcfGenerator;
+namespace Freekattema\Wordpress\Acf;
 
-use Freekattema\AcfGenerator\FieldTypes\AcfFlexibleContent;
-use Freekattema\AcfGenerator\FieldTypes\AcfIconSelector;
-use Freekattema\AcfGenerator\FieldTypes\AcfImage;
-use Freekattema\AcfGenerator\FieldTypes\AcfRepeater;
-use Freekattema\AcfGenerator\FieldTypes\AcfText;
-use Freekattema\AcfGenerator\FieldTypes\AcfWysiwyg;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfFlexibleContent;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfIconSelector;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfImage;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfRepeater;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfText;
+use Freekattema\Wordpress\Acf\FieldTypes\AcfWysiwyg;
 
 final class AcfPresets
 {

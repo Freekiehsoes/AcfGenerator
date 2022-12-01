@@ -1,10 +1,10 @@
 <?php
 
-namespace Freekattema\AcfGenerator\FieldTypes;
+namespace Freekattema\Wordpress\Acf\FieldTypes;
 
-use Freekattema\AcfGenerator\Traits\HasOptions;
+use Freekattema\Wordpress\Acf\Traits\HasOptions;
 
-class AcfText extends \Freekattema\AcfGenerator\FieldTypes\AcfFieldType {
+class AcfText extends \Freekattema\Wordpress\Acf\FieldTypes\AcfFieldType {
     use HasOptions;
 
     function get_additional(): array
