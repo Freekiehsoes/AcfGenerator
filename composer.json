@@ -14,8 +14,6 @@
   ],
   "require": {
     "php": ">=7.4",
-    "johnpbloch/wordpress": ">=5.4",
-    "advanced-custom-fields/advanced-custom-fields": ">=5.8.7"
   },
   "license": "proprietary"
 }
