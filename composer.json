@@ -1,9 +1,9 @@
 {
-  "name": "freekattema/advanced-custom-fields-helper",
+  "name": "freekattema/acf-generator",
   "description": "Handy package for easily creating ACF fields, groups and more.",
   "autoload": {
     "psr-4": {
-      "Freekattema\\AdvancedCustomFieldsHelper\\": "src/"
+      "Freekattema\\AcfGenerator\\": "src/"
     }
   },
   "authors": [

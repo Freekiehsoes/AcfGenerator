@@ -1,8 +1,8 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
+namespace Freekattema\AcfGenerator\FieldTypes;
 
-use Freekattema\AdvancedCustomFieldsHelper\Traits\HasOptions;
+use Freekattema\AcfGenerator\Traits\HasOptions;
 
 final class AcfRepeater extends AcfFieldType {
     use HasOptions;

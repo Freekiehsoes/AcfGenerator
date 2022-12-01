@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
+namespace Freekattema\AcfGenerator\FieldTypes;
 
 abstract class AcfFieldType {
     /** @var string  */

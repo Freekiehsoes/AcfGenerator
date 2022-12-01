@@ -1,13 +1,13 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper;
+namespace Freekattema\AcfGenerator;
 
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfFlexibleContent;
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfIconSelector;
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfImage;
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfRepeater;
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfText;
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfWysiwyg;
+use Freekattema\AcfGenerator\FieldTypes\AcfFlexibleContent;
+use Freekattema\AcfGenerator\FieldTypes\AcfIconSelector;
+use Freekattema\AcfGenerator\FieldTypes\AcfImage;
+use Freekattema\AcfGenerator\FieldTypes\AcfRepeater;
+use Freekattema\AcfGenerator\FieldTypes\AcfText;
+use Freekattema\AcfGenerator\FieldTypes\AcfWysiwyg;
 
 final class AcfPresets
 {

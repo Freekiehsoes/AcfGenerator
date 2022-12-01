@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
+namespace Freekattema\AcfGenerator\FieldTypes;
 
 final class AcfImage extends AcfFieldType {
     function get_additional(): array

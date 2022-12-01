@@ -1,10 +1,10 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
+namespace Freekattema\AcfGenerator\FieldTypes;
 
-use Freekattema\AdvancedCustomFieldsHelper\Traits\HasOptions;
+use Freekattema\AcfGenerator\Traits\HasOptions;
 
-class AcfText extends \Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfFieldType {
+class AcfText extends \Freekattema\AcfGenerator\FieldTypes\AcfFieldType {
     use HasOptions;
 
     function get_additional(): array

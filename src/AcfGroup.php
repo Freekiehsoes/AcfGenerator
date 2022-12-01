@@ -1,9 +1,9 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper;
+namespace Freekattema\AcfGenerator;
 
-use Freekattema\AdvancedCustomFieldsHelper\FieldTypes\AcfFieldType;
-use Freekattema\AdvancedCustomFieldsHelper\Traits\AddAction;
+use Freekattema\AcfGenerator\FieldTypes\AcfFieldType;
+use Freekattema\AcfGenerator\Traits\AddAction;
 
 class AcfGroup {
     use AddAction;

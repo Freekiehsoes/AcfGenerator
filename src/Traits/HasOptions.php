@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper\Traits;
+namespace Freekattema\AcfGenerator\Traits;
 
 trait HasOptions {
     /** @var array */

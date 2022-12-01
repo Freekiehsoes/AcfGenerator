@@ -1,6 +1,6 @@
 <?php
 
-namespace Freekattema\AdvancedCustomFieldsHelper;
+namespace Freekattema\AcfGenerator;
 
 final class AcfLocation {
     /** @var string */
