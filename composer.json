@@ -1,19 +1,21 @@
 {
-    "name": "freekattema/advanced-custom-fields-helper",
-    "description": "Handy package for easily creating ACF fields, groups and more.",
-    "autoload": {
-        "psr-4": {
-            "Freekattema\\AdvancedCustomFieldsHelper\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "freekattema",
-            "email": "freekattema@live.nl"
-        }
-    ],
-    "require": {
-        "php": ">=7.4"
-    },
-    "license": "proprietary"
+  "name": "freekattema/advanced-custom-fields-helper",
+  "description": "Handy package for easily creating ACF fields, groups and more.",
+  "autoload": {
+    "psr-4": {
+      "Freekattema\\AdvancedCustomFieldsHelper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "freekattema",
+      "email": "freekattema@live.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "johnpbloch/wordpress": ">=5.4",
+    "advanced-custom-fields/advanced-custom-fields": ">=5.8.7"
+  },
+  "license": "proprietary"
 }
