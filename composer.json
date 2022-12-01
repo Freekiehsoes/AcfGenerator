@@ -1,0 +1,17 @@
+{
+    "name": "freekattema/advanced-custom-fields-helper",
+    "autoload": {
+        "psr-4": {
+            "Freekattema\\AdvancedCustomFieldsHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "freekattema",
+            "email": "freekattema@live.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
