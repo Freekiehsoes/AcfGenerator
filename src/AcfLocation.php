@@ -2,12 +2,13 @@
 
 namespace Freekattema\AdvancedCustomFieldsHelper;
 
-use ZigZagEngine\Classes\Logger;
-
 final class AcfLocation {
-    public string $param;
-    public string $operator;
-    public string $value;
+    /** @var string */
+    public $param;
+    /** @var string */
+    public $operator;
+    /** @var string */
+    public $value;
 
     private function __construct(string $param, string $operator, string $value) {
         $this->param = $param;

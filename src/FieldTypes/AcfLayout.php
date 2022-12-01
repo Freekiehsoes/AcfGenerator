@@ -4,7 +4,8 @@ namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
 
 final class AcfLayout extends AcfFieldType
 {
-    private array $fields = [];
+    /** @var array  */
+    private $fields = [];
 
     function get_additional(): array
     {

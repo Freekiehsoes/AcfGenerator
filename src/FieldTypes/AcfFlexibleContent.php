@@ -2,11 +2,9 @@
 
 namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
 
-use ZigZagEngine\Classes\Logger;
-
 final class AcfFlexibleContent extends AcfFieldType {
     /** @var AcfLayout[] */
-    private array $layouts;
+    private $layouts;
 
     function get_additional(): array
     {

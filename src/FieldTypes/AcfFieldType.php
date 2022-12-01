@@ -3,9 +3,12 @@
 namespace Freekattema\AdvancedCustomFieldsHelper\FieldTypes;
 
 abstract class AcfFieldType {
-    private string $label;
-    private string $name;
-    private int $width = 100;
+    /** @var string  */
+    private $label;
+    /** @var string  */
+    private $name;
+    /** @var int  */
+    private $width = 100;
 
     private function __construct(string $label, string $name) {
         $this->label = $label;

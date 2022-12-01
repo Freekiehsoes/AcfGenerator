@@ -6,7 +6,8 @@ use Freekattema\AdvancedCustomFieldsHelper\Traits\HasOptions;
 
 final class AcfRepeater extends AcfFieldType {
     use HasOptions;
-    private array $fields;
+    /** @var array */
+    private $fields;
 
     function get_additional(): array
     {

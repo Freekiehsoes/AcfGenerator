@@ -3,7 +3,8 @@
 namespace Freekattema\AdvancedCustomFieldsHelper\Traits;
 
 trait HasOptions {
-    protected array $options = [];
+    /** @var array */
+    protected $options = [];
 
     protected function set_option(string $key, $value): self
     {

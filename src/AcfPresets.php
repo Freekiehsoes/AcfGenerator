@@ -42,12 +42,4 @@ final class AcfPresets
 
         return $repeater;
     }
-
-    public static function usps(): AcfRepeater
-    {
-        return AcfRepeater::create('Usps', 'usps')->add_fields([
-            AcfIconSelector::create('Icoon', 'icon')->width(40)->default_value('sharp,solid,check'),
-            AcfText::create('Titel', 'title')->width(60),
-        ]);
-    }
 }

@@ -8,19 +8,27 @@ use Freekattema\AdvancedCustomFieldsHelper\Traits\AddAction;
 class AcfGroup {
     use AddAction;
 
-    private string $key;
-    private string $title;
+    /** @var string */
+    private $key;
+    /** @var string */
+    private $title;
     /** @var AcfFieldType[] */
-    private array $fields = [];
+    private $fields = [];
     /** @var AcfLocation[] */
-    private array $location = [];
+    private $location = [];
 
-    private int $menu_order = 0;
-    private string $position = 'normal';
-    private string $style = 'default';
-    private string $label_placement = 'top';
-    private string $instruction_placement = 'label';
-    private string $hide_on_screen = '';
+    /** @var int */
+    private $menu_order = 0;
+    /** @var string */
+    private $position = 'normal';
+    /** @var string */
+    private $style = 'default';
+    /** @var string */
+    private $label_placement = 'top';
+    /** @var string */
+    private $instruction_placement = 'label';
+    /** @var string */
+    private $hide_on_screen = '';
 
     /**
      * @param string $key
